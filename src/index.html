@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="flex justify-center items-center h-screen">
+      <!-- Card -->
+      <div
+        class="flex flex-col h-full w-full bg-white md:flex-row md:h-[512px] md:w-[736px] md:rounded-[32px] md:shadow-2xl"
+      >
+        <!-- Result Side -->
+        <div
+          class="flex flex-col items-center py-8 gap-y-8 rounded-b-[32px] bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-center text-white md:rounded-[32px] md:w-1/2 md:gap-y-10"
+        >
+          <h1 class="text-white/80 text-xl md:text-2xl">Your Result</h1>
+
+          <!-- Circle -->
+          <div
+            class="flex flex-col items-center justify-center rounded-full h-44 w-44 bg-gradient-to-b from-violetBlue to-persianBlue md:h-48 md:w-48"
+          >
+            <span class="p-2 text-6xl font-semibold md:text-7xl"> 76 </span>
+            <p class="text-white/50">of 100</p>
+          </div>
+
+          <!-- Content -->
+          <div>
+            <h2 class="text-2xl mb-3 md:font-medium md:text-3xl">Great</h2>
+
+            <p class="text-white/70 px-16 leading-snug">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <!-- Summary Side -->
+        <div class="flex flex-col p-8 gap-8 md:w-1/2">
+          <h1 class="text-xl md:text-2xl">Summary</h1>
+
+          <!-- Category Container -->
+          <div class="flex flex-col gap-4">
+            <!-- Catergory 1 -->
+            <div
+              class="flex justify-between items-center h-14 rounded-xl bg-lightRed/10"
+            >
+              <div class="flex items-center">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt=""
+                  class="p-4"
+                />
+                <p class="text-lightRed">Reaction</p>
+              </div>
+
+              <div class="p-4">
+                80&nbsp; <span class="text-black/30">/ 100</span>
+              </div>
+            </div>
+
+            <!-- Catergory 2 -->
+            <div
+              class="flex justify-between items-center h-14 rounded-xl bg-orangeyYellow/10"
+            >
+              <div class="flex items-center">
+                <img src="./assets/images/icon-memory.svg" alt="" class="p-4" />
+                <p class="text-orangeyYellow">Memory</p>
+              </div>
+
+              <div class="p-4">
+                92&nbsp; <span class="text-black/30">/ 100</span>
+              </div>
+            </div>
+
+            <!-- Catergory 3 -->
+            <div
+              class="flex justify-between items-center h-14 rounded-xl bg-greenTeal/10"
+            >
+              <div class="flex items-center">
+                <img src="./assets/images/icon-verbal.svg" alt="" class="p-4" />
+                <p class="text-greenTeal">Verbal</p>
+              </div>
+
+              <div class="p-4">
+                61&nbsp; <span class="text-black/30">/ 100</span>
+              </div>
+            </div>
+
+            <!-- Catergory 4 -->
+            <div
+              class="flex justify-between items-center h-14 rounded-xl bg-cobaltBlue/10"
+            >
+              <div class="flex items-center">
+                <img src="./assets/images/icon-visual.svg" alt="" class="p-4" />
+                <p class="text-cobaltBlue">Visual</p>
+              </div>
+
+              <div class="p-4">
+                72&nbsp; <span class="text-black/30">/ 100</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Continue Button -->
+          <button
+            class="px-6 py-4 bg-darkGrayBlue text-white rounded-full hover:bg-cobaltBlue active:bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

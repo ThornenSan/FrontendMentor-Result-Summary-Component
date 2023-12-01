@@ -1,0 +1,15 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "Result Summary Component Challange",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./src/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/css/style.css"
+  },
+  "author": "Thornen San",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
