@@ -534,11 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -551,6 +546,10 @@ video {
   height: 3.5rem;
 }
 
+.h-44 {
+  height: 11rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -559,24 +558,12 @@ video {
   height: 100vh;
 }
 
-.h-44 {
-  height: 11rem;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-44 {
   width: 11rem;
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -601,10 +588,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
 }
 
 .gap-y-8 {
@@ -686,10 +669,6 @@ video {
   padding: 2rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -710,11 +689,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -724,14 +698,14 @@ video {
   line-height: 2rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -783,29 +757,9 @@ video {
   color: rgb(255 255 255 / 0.8);
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
-}
-
 .hover\:bg-cobaltBlue:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(234 85% 45% / var(--tw-bg-opacity));
-}
-
-.active\:rounded-b-\[32px\]:active {
-  border-bottom-right-radius: 32px;
-  border-bottom-left-radius: 32px;
-}
-
-.active\:bg-lightRoyalBlue:active {
-  --tw-bg-opacity: 1;
-  background-color: hsl(241 81% 54% / var(--tw-bg-opacity));
 }
 
 .active\:bg-gradient-to-b:active {
@@ -837,25 +791,12 @@ video {
     flex-direction: row;
   }
 
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
-
   .md\:gap-y-10 {
     row-gap: 2.5rem;
   }
 
   .md\:rounded-\[32px\] {
     border-radius: 32px;
-  }
-
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .md\:text-2xl {

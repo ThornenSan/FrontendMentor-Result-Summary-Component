@@ -4,8 +4,8 @@
   "description": "Result Summary Component Challange",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./src/input.css -o ./src/css/style.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./src/css/style.css"
+    "watch": "tailwindcss -i input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i input.css -o ./css/style.css"
   },
   "author": "Thornen San",
   "license": "ISC",
